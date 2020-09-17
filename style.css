@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(ReadHut/background.png);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(29,33,61,0.5);
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+}
+.logo{
+    width: 150px;
+    z-index: 1000;
+   
+}
+.logo img {
+    width: 30px;
+}
+nav{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 3.5%;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.user-icon{
+    width: 155px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+}
+.user-icon img{
+    width: 30px;
+    margin-left: 20px;
+}
+.side-bar{
+    width: 155px;
+    height: 100vh;
+    background: rgba(29,31,58,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.search_icon{
+    width: 20px;
+    margin: 120px auto 0;
+    display: block;
+    cursor: pointer;
+}
+.social-links{
+    text-align: center;
+    margin: 220px auto  0;
+    text-align: center;
+}
+.social-links img{
+    display: block;
+    margin: auto;
+    height: 15px;
+    margin-bottom: 30px;
+
+}
+.info{
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
